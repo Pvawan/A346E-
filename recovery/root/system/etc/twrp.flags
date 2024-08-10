@@ -17,7 +17,7 @@
 /preloader_b       emmc        /dev/block/platform/bootdevice/by-name/preloader_b        flags=display="Preloader B";backup=1;flashimg=1
 /misc              emmc        /dev/block/platform/bootdevice/by-name/misc               flags=display="MISC";backup=1;flashimg=1
 /dtbo	           emmc	       /dev/block/platform/bootdevice/by-name/dtbo	         flags=display="DTBO";backup=1;flashimg=1
-/bootloader        emmc        /dev/block/platform/bootdevice/by-name/lk                 flags=display="LK";backup=1;flashimg=1
+/bootloader        emmc        /dev/block/platform/bootdevice/by-name/bootloader             flags=display="bootloader";backup=1;flashimg=1
 /vbmeta_vendor	   emmc        /dev/block/platform/bootdevice/by-name/vbmeta_vendor      flags=display="VBMeta vendor";backup=1;flashimg=1
 /vbmeta_system     emmc        /dev/block/platform/bootdevice/by-name/vbmeta_system      flags=display="VBMeta system";backup=1;flashimg=1
 
