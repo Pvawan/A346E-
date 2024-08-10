@@ -3,7 +3,7 @@
 # Main partitions
 /system_image      emmc        /dev/block/mapper/system              flags=display="System Image";backup=1;flashimg=1;logical
 /system_ext_image  emmc        /dev/block/mapper/system_ext          flags=display="System EXT Image";backup=1;flashimg=1;logical
-/odm_image         emmc        /dev/block/mapper/odm                 flags=display="ODM Image";backup=1;flashimg=1;logical
+/odm_image             emmc        /dev/block/mapper/odm                 flags=display="ODM Image";backup=1;flashimg=1;logical
 /vendor_image      emmc        /dev/block/mapper/vendor              flags=display="Vendor Image";backup=1;flashimg=1;logical
 /product_image     emmc        /dev/block/mapper/product             flags=display="Product Image";backup=1;flashimg=1;logical
 
