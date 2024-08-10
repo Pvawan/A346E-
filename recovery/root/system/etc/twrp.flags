@@ -43,7 +43,7 @@
 /nvcfg             ext4        /dev/block/platform/bootdevice/by-name/nvcfg              flags=display="NVCFG";backup=1
 /nvram             emmc        /dev/block/platform/bootdevice/by-name/nvram              flags=display="NVRAM";backup=1;flashimg=1
 /up_param          emmc        /dev/block/platform/bootdevice/by-name/up_param           flags=display="UP_PARAM";backup=1;flashimg=1
-/efs               ext4        /dev/block/platform/bootdevice/by-name/efs                flags=display="EFS";backup=1
+/efs               ext4        /dev/block/platform/bootdevice/by-name/efs                        flags=display="EFS";backup=1
 /efuse             emmc        /dev/block/platform/bootdevice/by-name/efuse              flags=display="EFUSE";backup=1;flashimg=1
 /sec_efs           ext4        /dev/block/platform/bootdevice/by-name/sec_efs            flags=display="SEC EFS";backup=1
 
